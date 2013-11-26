@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="L:\FreeLancing\FileBrowserProject\FileBrowser\src\main\res" >
+            <file
+                name="btn_bg"
+                path="L:\FreeLancing\FileBrowserProject\FileBrowser\src\main\res\drawable\btn_bg.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="checkbox_selector"
+                path="L:\FreeLancing\FileBrowserProject\FileBrowser\src\main\res\drawable\checkbox_selector.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="L:\FreeLancing\FileBrowserProject\FileBrowser\src\main\res\drawable-hdpi\ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="L:\FreeLancing\FileBrowserProject\FileBrowser\src\main\res\drawable-mdpi\ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="L:\FreeLancing\FileBrowserProject\FileBrowser\src\main\res\drawable-xhdpi\ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="other"
+                path="L:\FreeLancing\FileBrowserProject\FileBrowser\src\main\res\drawable-xhdpi\other.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="pdf"
+                path="L:\FreeLancing\FileBrowserProject\FileBrowser\src\main\res\drawable-xhdpi\pdf.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="star"
+                path="L:\FreeLancing\FileBrowserProject\FileBrowser\src\main\res\drawable-xhdpi\star.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="star_down"
+                path="L:\FreeLancing\FileBrowserProject\FileBrowser\src\main\res\drawable-xhdpi\star_down.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="L:\FreeLancing\FileBrowserProject\FileBrowser\src\main\res\drawable-xxhdpi\ic_launcher.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="activity_main"
+                path="L:\FreeLancing\FileBrowserProject\FileBrowser\src\main\res\layout\activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="gallery"
+                path="L:\FreeLancing\FileBrowserProject\FileBrowser\src\main\res\layout\gallery.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="gridcontent"
+                path="L:\FreeLancing\FileBrowserProject\FileBrowser\src\main\res\layout\gridcontent.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_text"
+                path="L:\FreeLancing\FileBrowserProject\FileBrowser\src\main\res\layout\list_text.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="L:\FreeLancing\FileBrowserProject\FileBrowser\src\main\res\layout\main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="selectable_image"
+                path="L:\FreeLancing\FileBrowserProject\FileBrowser\src\main\res\layout\selectable_image.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="seperator"
+                path="L:\FreeLancing\FileBrowserProject\FileBrowser\src\main\res\layout\seperator.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="L:\FreeLancing\FileBrowserProject\FileBrowser\src\main\res\menu\main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="L:\FreeLancing\FileBrowserProject\FileBrowser\src\main\res\values\dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="L:\FreeLancing\FileBrowserProject\FileBrowser\src\main\res\values\strings.xml"
+                qualifiers="" >
+                <string name="action_settings" >Settings
+                </string>
+                <string name="app_name" >FileBrowser
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+            </file>
+            <file
+                path="L:\FreeLancing\FileBrowserProject\FileBrowser\src\main\res\values\styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="L:\FreeLancing\FileBrowserProject\FileBrowser\src\main\res\values-sw720dp-land\dimens.xml"
+                qualifiers="sw720dp-land" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                path="L:\FreeLancing\FileBrowserProject\FileBrowser\src\main\res\values-v11\styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="L:\FreeLancing\FileBrowserProject\FileBrowser\src\main\res\values-v14\styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+        </source>
+        <source path="L:\FreeLancing\FileBrowserProject\FileBrowser\build\res\rs\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="L:\FreeLancing\FileBrowserProject\FileBrowser\src\debug\res" />
+    </dataSet>
+
+</merger>

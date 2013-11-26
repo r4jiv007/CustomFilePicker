@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="3dp">
+
+    <!--<ImageView
+        android:id="@+id/thumbImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+-->
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/thumbHolder">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/thumbImage"
+            android:scaleType="fitXY" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:id="@+id/titletxt"
+            android:gravity="center_vertical"
+            android:maxLines="2"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:textSize="16sp"
+            android:layout_gravity="bottom"
+            android:background="#80000000"
+            android:textColor="#ffffffff"
+            android:text="" />
+
+
+    </FrameLayout>
+
+    <CheckBox
+        android:id="@+id/itemCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:enabled="false"/>
+</RelativeLayout><!-- From: file:/L:/FreeLancing/FileBrowserProject/FileBrowser/src/main/res/layout/selectable_image.xml -->

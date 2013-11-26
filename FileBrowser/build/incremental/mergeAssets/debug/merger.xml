@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="L:\FreeLancing\FileBrowserProject\FileBrowser\src\main\assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="L:\FreeLancing\FileBrowserProject\FileBrowser\src\debug\assets" />
+    </dataSet>
+
+</merger>
